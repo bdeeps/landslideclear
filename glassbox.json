@@ -1,0 +1,109 @@
+{
+  "slug": "landslideclear",
+  "box": 103,
+  "date": "2026-10-06",
+  "title": "LandslideClear",
+  "question": "How do landslides happen?",
+  "hook": "A hillside is a tug of war that gravity never stops pulling. Friction and cohesion hold the soil, until rain fills the ground, takes the friction away and the slope lets go. Tilt a slope until it fails, pour a sandpile, soak a hill in a cloudburst, switch road cuts, forests and drains on and off, and learn the signs that mean move now.",
+  "thumbText": "HOW LANDSLIDES HAPPEN",
+  "field": "nature",
+  "minutes": 16,
+  "tags": [
+    "landslide",
+    "slope stability",
+    "factor of safety",
+    "angle of repose",
+    "pore-water pressure",
+    "effective stress",
+    "debris flow",
+    "rainfall threshold",
+    "Himalaya",
+    "Western Ghats",
+    "disaster safety",
+    "nature",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "A slope in balance",
+      "text": "A block of soil on a slope is pulled downhill by part of its weight and held by friction and cohesion. Coulomb's law of 1776 says strength = cohesion + press × tan φ. Grip divided by pull is the factor of safety: above 1 the slope holds, below 1 it slides. For 3 m of soil with a friction angle of 32° and 5 kPa of cohesion on a 30° slope it is 1.28."
+    },
+    {
+      "title": "The angle of repose",
+      "text": "Pour dry sand and it settles at about 34°, however big the pile. Angular gravel stands steeper. A little water holds grains together with tiny bridges, which is how a sandcastle stands at 45° or more. Fill every gap with water and the pile slumps to 20° or so."
+    },
+    {
+      "title": "What rain does",
+      "text": "Rain fills the gaps between soil grains, and the water pressure there carries part of the load. Friction depends only on the press between grains, so it falls while the pull stays the same. This is Terzaghi's effective stress. In the model a steady 8 mm an hour brings the slope down in about 29 hours, and a cloudburst in under 5."
+    },
+    {
+      "title": "Kinds of landslide",
+      "text": "Rock falls at tens of metres a second. A slump turns slowly on a curved surface. A slab slides on a flat weak layer. A debris flow pours down a gully at 10 m/s and runs far. Creep moves a few millimetres a year and bends trees. From slowest to fastest the range is about a million million to one."
+    },
+    {
+      "title": "What tips the balance",
+      "text": "Slopes lose safety a piece at a time. Rain, earthquakes and rivers cutting the toe are nature's triggers. Road cuts, quarries, cleared forest and heavy buildings are ours. Drainage, retaining walls, rock bolts and nets, terraces and deep-rooted plants put the safety back. The model finds the weakest slip surface each time you change something."
+    },
+    {
+      "title": "India's slopes and staying safe",
+      "text": "About 12.6% of India's land outside the snow, 0.42 million km², is landslide-prone: the Himalaya, the North-East and the Western Ghats. Kedarnath 2013, Malin 2014, Kerala 2018 and 2019, Wayanad 2024 and sinking Joshimath are in living memory. New cracks, tilting trees and poles, a spring gone muddy, a rumble: move sideways and uphill, out of the gully, at once. Emergency 112, NDMA 1078."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Factor of safety",
+      "def": "The grip holding a slope divided by the pull trying to move it. Below 1, it slides."
+    },
+    {
+      "term": "Friction angle",
+      "def": "A measure of how well soil grains lock together. Friction = press × tan φ."
+    },
+    {
+      "term": "Cohesion",
+      "def": "Strength that does not depend on the press: clay stickiness, cement between grains, roots."
+    },
+    {
+      "term": "Angle of repose",
+      "def": "The steepest angle at which a heap of loose grains will stand, about 34° for dry sand."
+    },
+    {
+      "term": "Pore-water pressure",
+      "def": "The pressure of water in the gaps between soil grains. It pushes the grains apart."
+    },
+    {
+      "term": "Effective stress",
+      "def": "The press carried grain to grain: the total press minus the water pressure. Friction depends on it."
+    },
+    {
+      "term": "Debris flow",
+      "def": "A fast flow of water mixed with soil, rock and wood, usually along a gully."
+    },
+    {
+      "term": "Rainfall threshold",
+      "def": "The mix of rain intensity and duration above which landslides become likely."
+    },
+    {
+      "term": "Slip surface",
+      "def": "The surface inside the ground on which a sliding mass moves."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "landslideclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "slug": "landslideclear",
+  "box": 103,
+  "question": "How do landslides happen?",
+  "url": "https://glassbox.how/e/landslideclear/",
+  "app": "https://glassbox.how/landslideclear/",
+  "assets": {
+    "reel": "reel.mp4",
+    "video": "video.mp4",
+    "cover": "cover.jpg",
+    "thumb": "thumb.jpg",
+    "still": "still.jpg",
+    "historyReel": "history-reel.mp4",
+    "historySlides": [
+      "history-slide-1.jpg",
+      "history-slide-2.jpg",
+      "history-slide-3.jpg",
+      "history-slide-4.jpg",
+      "history-slide-5.jpg",
+      "history-slide-6.jpg",
+      "history-slide-7.jpg",
+      "history-slide-8.jpg",
+      "history-slide-9.jpg",
+      "history-slide-10.jpg"
+    ],
+    "slides": [
+      "slide-1.jpg",
+      "slide-2.jpg",
+      "slide-3.jpg",
+      "slide-4.jpg",
+      "slide-5.jpg",
+      "slide-6.jpg",
+      "slide-7.jpg",
+      "slide-8.jpg",
+      "slide-9.jpg",
+      "slide-10.jpg"
+    ]
+  },
+  "captions": {
+    "history": {
+      "instagram": "From Coulomb's friction and cohesion to a daily landslide forecast: how people learned why slopes fail, and how to get out of the way.\n\n1773: Coulomb: friction and cohesion\n1925: Terzaghi: water carries part of the load\n1963: The Vaiont dam disaster\n1978: Varnes names the kinds of landslide\n1980: Caine's rainfall threshold\n2004: GSI becomes India's nodal agency for landslides\n\nThe full story, with 28 moments, sources and charts: glassbox.how/e/landslideclear/history (link in bio)\n\nThen play with how it works: glassbox.how/landslideclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #landslide #slopestability #factorofsafety #angleofrepose #porewaterpressure #effectivestress #history",
+      "youtube": {
+        "title": "The history of understanding landslides in 45 seconds #shorts",
+        "description": "From Coulomb's friction and cohesion to a daily landslide forecast: how people learned why slopes fail, and how to get out of the way.\n\n1773 · Coulomb: friction and cohesion (Charles-Augustin de Coulomb)\n1925 · Terzaghi: water carries part of the load (Karl Terzaghi)\n1963 · The Vaiont dam disaster\n1978 · Varnes names the kinds of landslide (David J. Varnes)\n1980 · Caine's rainfall threshold (Nel Caine)\n2004 · GSI becomes India's nodal agency for landslides (Geological Survey of India)\n\n▶ Full history: https://glassbox.how/e/landslideclear/history/\n▶ Play with it: https://glassbox.how/e/landslideclear/\n\n#glassbox #howitworks #explained #history"
+      }
+    },
+    "instagram": "How do landslides happen?\n\nA hillside is a tug of war that gravity never stops pulling. Friction and cohesion hold the soil, until rain fills the ground, takes the friction away and the slope lets go. Tilt a slope until it fails, pour a sandpile, soak a hill in a cloudburst, switch road cuts, forests and drains on and off, and learn the signs that mean move now.\n\n→ A hillside is a tug of war. Gravity pulls the soil down the slope. Friction and cohesion hold it.\n→ Grip divided by pull is the factor of safety. Steepen the slope and it falls below 1: the soil lets go.\n→ Pour dry sand and it settles at about 34 degrees: its angle of repose.\n→ Rain fills the gaps between the grains. The water pushes back, the grains press less, and friction falls.\n→ A cloudburst does in hours what a monsoon spell does in days. Below a factor of safety of 1, the slope goes.\n\nPlay with it yourself. It's free and open source: glassbox.how/landslideclear (link in bio)\n\nBox No. 103 of 365. Follow @glassbox.how for a new \"how it works\" every day.\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #landslide #slopestability #factorofsafety #angleofrepose #porewaterpressure #effectivestress #debrisflow #rainfallthreshold #himalaya",
+    "carousel": "Swipe through: How do landslides happen?\n\nA hillside is a tug of war that gravity never stops pulling. Friction and cohesion hold the soil, until rain fills the ground, takes the friction away and the slope lets go. Tilt a slope until it fails, pour a sandpile, soak a hill in a cloudburst, switch road cuts, forests and drains on and off, and learn the signs that mean move now.\n\nSave this for later, then play with the interactive version at glassbox.how/landslideclear (link in bio).\n\nBox No. 103 · @glassbox.how\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #landslide #slopestability #factorofsafety #angleofrepose #porewaterpressure #effectivestress",
+    "youtube": {
+      "title": "How do landslides happen? #shorts",
+      "description": "A hillside is a tug of war that gravity never stops pulling. Friction and cohesion hold the soil, until rain fills the ground, takes the friction away and the slope lets go. Tilt a slope until it fails, pour a sandpile, soak a hill in a cloudburst, switch road cuts, forests and drains on and off, and learn the signs that mean move now.\n\n▶ Play with it: https://glassbox.how/e/landslideclear/\n⌘ Source code (MIT): https://github.com/bdeeps/landslideclear\n\nBox No. 103 of 365 from Glassbox: one open-source interactive explainer every day.\n\n#glassbox #howitworks #explained"
+    },
+    "youtubeLong": {
+      "title": "How do landslides happen? (interactive explainer)",
+      "description": "A hillside is a tug of war that gravity never stops pulling. Friction and cohesion hold the soil, until rain fills the ground, takes the friction away and the slope lets go. Tilt a slope until it fails, pour a sandpile, soak a hill in a cloudburst, switch road cuts, forests and drains on and off, and learn the signs that mean move now.\n\n▶ Play with the interactive version: https://glassbox.how/e/landslideclear/\n⌘ Source code (MIT): https://github.com/bdeeps/landslideclear\n\nIn this video:\n• A slope in balance. A block of soil on a slope is pulled downhill by part of its weight and held by friction and cohesion.\n• The angle of repose. Pour dry sand and it settles at about 34°, however big the pile.\n• What rain does. Rain fills the gaps between soil grains, and the water pressure there carries part of the load.\n• Kinds of landslide. Rock falls at tens of metres a second.\n• What tips the balance. Slopes lose safety a piece at a time.\n• India's slopes and staying safe. About 12.6% of India's land outside the snow, 0.42 million km², is landslide-prone: the Himalaya, the North-East and the Western Ghats.\n\nGlassbox opens one box a day: an interactive model of how something works, plus the code behind it.\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+    },
+    "short": "How do landslides happen?\n\nA hillside is a tug of war that gravity never stops pulling.\n\nPlay with it: https://glassbox.how/e/landslideclear/",
+    "linkedin": "How do landslides happen?\n\nA hillside is a tug of war that gravity never stops pulling. Friction and cohesion hold the soil, until rain fills the ground, takes the friction away and the slope lets go. Tilt a slope until it fails, pour a sandpile, soak a hill in a cloudburst, switch road cuts, forests and drains on and off, and learn the signs that mean move now.\n\n1. A slope in balance\n2. The angle of repose\n3. What rain does\n4. Kinds of landslide\n5. What tips the balance\n6. India's slopes and staying safe\n\nI built an interactive, open-source explainer so you can pull the levers yourself. It's box No. 103 in my one-a-day project, Glassbox.\n\nTry it: https://glassbox.how/e/landslideclear/\nCode: https://github.com/bdeeps/landslideclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+  },
+  "schedule": {
+    "at": "2026-10-02T13:00:00.000Z"
+  },
+  "targets": [
+    {
+      "service": "instagram",
+      "kind": "reel",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "carousel",
+      "offsetHours": 4,
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "short",
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "linkedin",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "twitter",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "threads",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "tiktok",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "history-reel",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "youtube",
+      "kind": "history-short",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "instagram",
+      "kind": "history-carousel",
+      "offsetHours": 6,
+      "enabled": false
+    }
+  ],
+  "thumbnailOffsetMs": 1200,
+  "updatedAt": "2026-10-01T18:20:11.846Z"
+}

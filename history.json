@@ -1,0 +1,997 @@
+{
+  "title": "The history of understanding landslides",
+  "tagline": "From Coulomb's friction and cohesion to a daily landslide forecast: how people learned why slopes fail, and how to get out of the way.",
+  "intro": "A slope stays up as long as the ground's strength beats the pull of gravity. In 1773 Coulomb put that strength into two numbers, friction and cohesion. In the 1920s Terzaghi showed how water in the ground takes strength away. Disasters such as Vaiont, Kedarnath, Malin and Wayanad taught the rest. India now maps its landslide-prone land and has begun to forecast landslides district by district.",
+  "eras": [
+    {
+      "id": "early",
+      "name": "Friction, cohesion and water",
+      "from": 1773,
+      "to": 1940,
+      "color": "#c49bff",
+      "summary": "Coulomb and Terzaghi explain what holds a slope up, and the first great slides are studied."
+    },
+    {
+      "id": "science",
+      "name": "Naming, measuring and hard lessons",
+      "from": 1940,
+      "to": 2000,
+      "color": "#ffb547",
+      "summary": "Engineers learn to calculate a factor of safety, Varnes names the kinds of landslide, and Vaiont, Aberfan and Huascarán show what is at stake."
+    },
+    {
+      "id": "india",
+      "name": "Mapping and warning",
+      "from": 2000,
+      "to": 2026,
+      "color": "#8ef0ff",
+      "summary": "India maps its landslide-prone land, loses many lives in the Himalaya and the Western Ghats, and starts a national forecast."
+    }
+  ],
+  "events": [
+    {
+      "year": 1773,
+      "date": "1773, published 1776",
+      "era": "early",
+      "art": "scroll",
+      "key": true,
+      "title": "Coulomb: friction and cohesion",
+      "who": "Charles-Augustin de Coulomb",
+      "where": "Paris",
+      "country": "France",
+      "text": "The French military engineer Coulomb presented an essay to the Academy of Sciences in 1773. It was printed in 1776. He said that soil resists sliding in two ways: friction between the grains, which grows with the weight pressing down, and cohesion, which holds them together even with no weight.",
+      "why": "Every slope calculation since has started from Coulomb's two numbers: friction and cohesion.",
+      "box": "balance",
+      "sources": [
+        1,
+        0
+      ]
+    },
+    {
+      "year": 1881,
+      "date": "11 September 1881",
+      "era": "early",
+      "art": "hammer",
+      "key": false,
+      "title": "Elm: a mountain undercut by quarrying",
+      "who": "Albert Heim",
+      "where": "Elm, Glarus",
+      "country": "Switzerland",
+      "text": "Villagers had been quarrying slate from the foot of a mountain face for years. On a wet Sunday about 10 million cubic metres of rock broke away and ran 2 km across the valley floor. About 115 people died. The geologist Albert Heim interviewed witnesses and wrote that the rock had flowed, almost like a liquid.",
+      "why": "It is widely considered the first rock avalanche to be studied scientifically, and it showed that digging at the foot of a slope can bring it down.",
+      "box": "kinds",
+      "sources": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "year": 1903,
+      "date": "29 April 1903",
+      "era": "early",
+      "art": "block",
+      "key": false,
+      "title": "The Frank Slide",
+      "who": "",
+      "where": "Frank, Alberta",
+      "country": "Canada",
+      "text": "At 4:10 in the morning about 110 million tonnes of limestone fell from Turtle Mountain onto the edge of the coal-mining town of Frank. Witnesses said it was over in about 100 seconds. Between 70 and 90 people are thought to have died. Local First Nations people had long called it the mountain that moves.",
+      "why": "The mountain is now one of the most closely watched in the world, with dozens of sensors on its face.",
+      "box": "kinds",
+      "sources": [
+        5
+      ]
+    },
+    {
+      "year": 1916,
+      "date": "1916–1922",
+      "era": "early",
+      "art": "compass",
+      "key": false,
+      "title": "The Swedish slip circle",
+      "who": "Knut Petterson, Sven Hultin, Wolmar Fellenius",
+      "where": "Gothenburg",
+      "country": "Sweden",
+      "text": "In March 1916 a new quay in Gothenburg harbour slid into the water. The engineers who studied it treated the sliding surface as part of a circle and worked out the turning forces on the soil above it. Wolmar Fellenius extended the method and used a factor of safety: the strength available divided by the force trying to move the slope.",
+      "why": "It gave engineers a way to put a number on how close a slope is to failing.",
+      "box": "balance",
+      "sources": [
+        6,
+        7
+      ]
+    },
+    {
+      "year": 1925,
+      "date": "1923–1925",
+      "era": "early",
+      "art": "waterdrop",
+      "key": true,
+      "title": "Terzaghi: water carries part of the load",
+      "who": "Karl Terzaghi",
+      "where": "Istanbul and Vienna",
+      "country": "Austria",
+      "text": "Karl Terzaghi showed that the water in the gaps between soil grains carries part of the weight above. Only what is left, the effective stress, presses the grains together and makes friction. He set this out from 1923 and in his 1925 book Erdbaumechanik.",
+      "why": "It explains why rain causes landslides: water pressure in the ground rises, the grains are pressed together less, and friction falls.",
+      "box": "rain",
+      "sources": [
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "year": 1955,
+      "date": "1955",
+      "era": "science",
+      "art": "scales",
+      "key": false,
+      "title": "Bishop's method of slices",
+      "who": "Alan W. Bishop",
+      "where": "Imperial College London",
+      "country": "England",
+      "text": "Alan Bishop published a better way to use the slip circle. He cut the sliding mass into vertical slices, included the water pressure on the base of each one, and added up the forces to find the factor of safety.",
+      "why": "Bishop's simplified method is still built into the slope software engineers use today.",
+      "box": "balance",
+      "sources": [
+        12,
+        11,
+        7
+      ]
+    },
+    {
+      "year": 1963,
+      "date": "9 October 1963",
+      "era": "science",
+      "art": "wave",
+      "key": true,
+      "title": "The Vaiont dam disaster",
+      "who": "",
+      "where": "Monte Toc, Vaiont valley",
+      "country": "Italy",
+      "text": "At 10:39 at night about 260 million cubic metres of rock slid off Monte Toc into the new Vaiont reservoir. It pushed a wave over the top of the 262 m dam; estimates of its height above the crest range from 150 to 250 m. The water destroyed Longarone and nearby villages. About 2,000 people died; counts range from 1,917 to about 2,500. The dam itself is still standing.",
+      "why": "Filling a reservoir had raised the water pressure inside an old landslide. The warnings were there and were not acted on.",
+      "box": "triggers",
+      "sources": [
+        14,
+        15,
+        13
+      ]
+    },
+    {
+      "year": 1966,
+      "date": "21 October 1966",
+      "era": "science",
+      "art": "building",
+      "key": false,
+      "title": "Aberfan",
+      "who": "",
+      "where": "Aberfan, South Wales",
+      "country": "Wales",
+      "text": "A heap of coal-mine waste had been tipped on a hillside over a natural spring. After heavy rain it turned to slurry and flowed into the village at about 9:15 in the morning, burying a junior school. 144 people died, 116 of them children. The inquiry put the blame on the National Coal Board.",
+      "why": "Britain passed a law on the safety of mine tips in 1969, and engineers everywhere learned to keep water out of loose heaps.",
+      "box": "repose",
+      "sources": [
+        17,
+        16
+      ]
+    },
+    {
+      "year": 1968,
+      "date": "2–5 October 1968",
+      "era": "science",
+      "art": "road",
+      "key": false,
+      "title": "The Darjeeling and Sikkim rains",
+      "who": "",
+      "where": "Darjeeling hills and Sikkim",
+      "country": "India",
+      "text": "At the end of the monsoon it rained for four days without a break. About 1,000 mm fell in 52 hours at the peak. Hundreds of landslides, and by some accounts thousands, cut the hill roads, and the Teesta river carried away the Anderson Bridge. About 1,000 people are thought to have died.",
+      "why": "It is still the event against which landslides in the eastern Himalaya are measured.",
+      "box": "safe",
+      "sources": [
+        18,
+        19
+      ]
+    },
+    {
+      "year": 1970,
+      "date": "31 May 1970",
+      "era": "science",
+      "art": "earth",
+      "key": false,
+      "title": "Huascarán buries Yungay",
+      "who": "",
+      "where": "Yungay, Ancash",
+      "country": "Peru",
+      "text": "A magnitude 7.9 earthquake shook ice and rock loose from the north peak of Huascarán. Some 50 to 100 million cubic metres of debris swept down the valley at more than 280 km/h and buried the towns of Yungay and Ranrahirca. Estimates of the dead in the avalanche range from about 18,000 to 30,000.",
+      "why": "It is the deadliest landslide in recorded history, and it was set off by an earthquake, not rain.",
+      "box": "triggers",
+      "sources": [
+        21,
+        20
+      ]
+    },
+    {
+      "year": 1978,
+      "date": "1958 and 1978",
+      "era": "science",
+      "art": "quill",
+      "key": true,
+      "title": "Varnes names the kinds of landslide",
+      "who": "David J. Varnes",
+      "where": "US Geological Survey, Denver",
+      "country": "USA",
+      "text": "David Varnes of the US Geological Survey sorted slope movements by two things: how the material moves and what it is made of. His 1958 scheme had falls, slides and flows. In 1978 he added topples and lateral spreads, and split the material into rock, debris and earth. It built on earlier work such as C. F. S. Sharpe's 1938 book.",
+      "why": "A rock fall, a debris flow and an earth slide need different defences, so a shared set of names matters.",
+      "box": "kinds",
+      "sources": [
+        24,
+        22,
+        23
+      ]
+    },
+    {
+      "year": 1980,
+      "date": "1980",
+      "era": "science",
+      "art": "waterdrop",
+      "key": true,
+      "title": "Caine's rainfall threshold",
+      "who": "Nel Caine",
+      "where": "University of Colorado",
+      "country": "USA",
+      "text": "Nel Caine gathered 73 reports from around the world of rain that had set off shallow landslides and debris flows. Plotting how hard it rained against how long it lasted, he drew a line under the points. Below the line, slopes mostly held. Above it, they could fail.",
+      "why": "Rainfall thresholds like this one are the basis of most landslide warnings today.",
+      "box": "rain",
+      "sources": [
+        27,
+        26
+      ]
+    },
+    {
+      "year": 1996,
+      "date": "1996 and 2014",
+      "era": "science",
+      "art": "block",
+      "key": false,
+      "title": "The classification is updated",
+      "who": "David Cruden, David Varnes; Oldrich Hungr, Serge Leroueil, Luciano Picarelli",
+      "where": "Washington DC",
+      "country": "USA",
+      "text": "David Cruden and David Varnes revised the scheme in 1996 and added a speed scale with seven classes, from extremely slow (less than 16 mm a year) to extremely rapid (more than 5 m a second). In 2014 Oldrich Hungr and colleagues updated it again, with 32 named types.",
+      "why": "Speed decides whether people can walk away from a landslide, so it became part of the name.",
+      "box": "kinds",
+      "sources": [
+        25,
+        23,
+        24
+      ]
+    },
+    {
+      "year": 1998,
+      "date": "18 August 1998",
+      "era": "science",
+      "art": "person",
+      "key": false,
+      "title": "Malpa",
+      "who": "",
+      "where": "Malpa, Pithoragarh district",
+      "country": "India",
+      "text": "At about 3 in the morning a rock fall and debris wiped out the village of Malpa in the Kali valley, in what is now Uttarakhand. The toll is given as 221 people, among them about 60 pilgrims resting on the way to Kailash Mansarovar.",
+      "why": "It showed how exposed pilgrim routes and night halts in the high Himalaya are.",
+      "box": "safe",
+      "sources": [
+        28
+      ]
+    },
+    {
+      "year": 2004,
+      "date": "29 January 2004",
+      "era": "india",
+      "art": "compass",
+      "key": true,
+      "title": "GSI becomes India's nodal agency for landslides",
+      "who": "Geological Survey of India",
+      "where": "Kolkata",
+      "country": "India",
+      "text": "The Government of India named the Geological Survey of India as the nodal agency for landslide studies. GSI estimates that about 0.42 million sq km, or 12.6% of India's land outside the snow-covered areas, is prone to landslides: the Himalaya, the hills of the North-East, the Western Ghats and Konkan, and part of the Eastern Ghats.",
+      "why": "One agency became responsible for mapping, studying and later forecasting landslides across the country.",
+      "box": "safe",
+      "sources": [
+        29
+      ]
+    },
+    {
+      "year": 2008,
+      "date": "2008–2009",
+      "era": "india",
+      "art": "share",
+      "key": false,
+      "title": "Sensors on a slope in Munnar",
+      "who": "Maneesha V. Ramesh and team, Amrita Vishwa Vidyapeetham",
+      "where": "Anthoniar Colony, Munnar, Kerala",
+      "country": "India",
+      "text": "A team from Amrita University buried sensors for rain, soil moisture, water pressure and movement in a hillside above Munnar and linked them by radio and satellite to their campus. A pilot began in 2008. In July 2009, during very heavy rain, the system issued a warning that the Kerala government passed on. Amrita describes it as India's first wireless sensor network for landslides.",
+      "why": "It measured the thing that matters most, water pressure inside the slope, in real time.",
+      "box": "rain",
+      "sources": [
+        33,
+        34
+      ]
+    },
+    {
+      "year": 2009,
+      "date": "June 2009",
+      "era": "india",
+      "art": "scroll",
+      "key": false,
+      "title": "National guidelines on landslides",
+      "who": "National Disaster Management Authority",
+      "where": "New Delhi",
+      "country": "India",
+      "text": "NDMA published its National Guidelines on the Management of Landslides and Snow Avalanches. They cover hazard mapping, building rules, monitoring, warning and public awareness. On 27 September 2019 NDMA followed with a National Landslide Risk Management Strategy.",
+      "why": "Landslides were treated as a risk to plan for in advance, not only an emergency to respond to.",
+      "box": "safe",
+      "sources": [
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "year": 2013,
+      "date": "16–17 June 2013",
+      "era": "india",
+      "art": "mountain",
+      "key": true,
+      "title": "Kedarnath and the Uttarakhand floods",
+      "who": "",
+      "where": "Kedarnath, Mandakini valley, Uttarakhand",
+      "country": "India",
+      "text": "The monsoon came early and very heavy rain fell on melting snow. Above Kedarnath the bank of loose glacial debris holding back Chorabari lake gave way, and water, mud and boulders swept through the temple town. Floods and landslides hit valleys across the state. More than 5,700 people were presumed dead according to the state government in July 2013, and later counts are above 6,000. More than 1 lakh people were evacuated.",
+      "why": "It was India's worst mountain disaster in decades, and it led to new work on warnings and on building in river valleys.",
+      "box": "safe",
+      "sources": [
+        36,
+        37,
+        35
+      ]
+    },
+    {
+      "year": 2014,
+      "date": "2014–2015",
+      "era": "india",
+      "art": "earth",
+      "key": false,
+      "title": "India starts mapping every landslide-prone slope",
+      "who": "Geological Survey of India",
+      "where": "Hill and mountain states",
+      "country": "India",
+      "text": "GSI began the National Landslide Susceptibility Mapping programme in the 2014–15 field season. Its aim was to map all 0.42 million sq km of landslide-prone land at a scale of 1:50,000, sorted into high, moderate and low susceptibility. The government has since reported the mapping complete: about 4.3 lakh sq km in parts of 19 states and union territories.",
+      "why": "The maps show where slopes are most likely to fail, which is the first thing planners need to know.",
+      "box": "safe",
+      "sources": [
+        29,
+        40,
+        41
+      ]
+    },
+    {
+      "year": 2014,
+      "date": "30 July 2014",
+      "era": "india",
+      "art": "building",
+      "key": true,
+      "title": "Malin",
+      "who": "",
+      "where": "Malin, Ambegaon taluka, Pune district, Maharashtra",
+      "country": "India",
+      "text": "Early in the morning, after about 108 mm of rain the day before, a hillside slid onto the village of Malin in the Western Ghats. About 45 houses were buried and 151 people died. Geologists who studied the site pointed to the rain and also to the levelling of slopes for farming and the loss of trees.",
+      "why": "It showed that the Western Ghats, not only the Himalaya, need landslide maps and warnings.",
+      "box": "triggers",
+      "sources": [
+        39,
+        38
+      ]
+    },
+    {
+      "year": 2018,
+      "date": "August 2018 and 8 August 2019",
+      "era": "india",
+      "art": "waterdrop",
+      "key": false,
+      "title": "Kerala: two monsoons of landslides",
+      "who": "",
+      "where": "Idukki, Wayanad and Malappuram districts, Kerala",
+      "country": "India",
+      "text": "In August 2018 Kerala had its worst floods since 1924. About 341 major landslides were reported from ten districts, and more than 480 people died in the floods and slides. On 8 August 2019 two hillsides failed within hours of each other: at Puthumala in Wayanad, where 17 people died, and at Kavalappara in Malappuram, where 59 died, including 11 who were never found.",
+      "why": "Two years running showed that extreme rain on steep, altered slopes was becoming a regular danger in Kerala.",
+      "box": "rain",
+      "sources": [
+        43,
+        44,
+        45,
+        47,
+        42,
+        46
+      ]
+    },
+    {
+      "year": 2018,
+      "date": "23 August 2018",
+      "era": "india",
+      "art": "computer",
+      "key": false,
+      "title": "Counting the world's fatal landslides",
+      "who": "Melanie Froude and David Petley; Dalia Kirschbaum and NASA",
+      "where": "Sheffield, England, and Greenbelt, USA",
+      "country": "England",
+      "text": "Melanie Froude and David Petley published a count of fatal landslides not caused by earthquakes from 2004 to 2016: 55,997 deaths in 4,862 events, most of them in Asia and most set off by rain. NASA has kept its own Global Landslide Catalog of rain-triggered landslides since 2007.",
+      "why": "Landslides kill far more people than was once thought, and the databases show where and when.",
+      "box": "triggers",
+      "sources": [
+        48,
+        49
+      ]
+    },
+    {
+      "year": 2020,
+      "date": "Monsoon 2020",
+      "era": "india",
+      "art": "phone",
+      "key": false,
+      "title": "Daily forecasts for Darjeeling and the Nilgiris",
+      "who": "Geological Survey of India, British Geological Survey, King's College London and partners",
+      "where": "Darjeeling, West Bengal, and the Nilgiris, Tamil Nadu",
+      "country": "India",
+      "text": "The LANDSLIP project, which ran from 2016 to 2022, joined rainfall forecasts to rainfall thresholds worked out for each kind of terrain. In the 2020 and 2021 monsoons GSI sent experimental daily landslide forecast bulletins to officials in two districts: Darjeeling and the Nilgiris.",
+      "why": "It was the trial run for a national landslide forecast.",
+      "box": "rain",
+      "sources": [
+        50
+      ]
+    },
+    {
+      "year": 2020,
+      "date": "6 August 2020",
+      "era": "india",
+      "art": "leaf",
+      "key": false,
+      "title": "Pettimudi",
+      "who": "",
+      "where": "Pettimudi, near Munnar, Idukki district, Kerala",
+      "country": "India",
+      "text": "Late at night, in extreme rain, debris from a slope near Eravikulam National Park came down a stream onto rows of tea-estate workers' homes. 66 bodies were recovered and 4 people were never found.",
+      "why": "The people who died were plantation workers living in old quarters at the foot of a slope: where people live matters as much as the rain.",
+      "box": "safe",
+      "sources": [
+        52,
+        51
+      ]
+    },
+    {
+      "year": 2023,
+      "date": "January 2023",
+      "era": "india",
+      "art": "window",
+      "key": false,
+      "title": "Joshimath sinks",
+      "who": "",
+      "where": "Joshimath, Chamoli district, Uttarakhand",
+      "country": "India",
+      "text": "Cracks opened in roads and in more than 800 buildings in the hill town of Joshimath, which stands on old landslide debris. Satellite measurements by ISRO's remote sensing centre showed the ground dropping about 5.4 cm in 12 days, between 27 December 2022 and 8 January 2023. Hundreds of families were moved out.",
+      "why": "Not all slope failures are sudden: a slow one can still make a town unsafe.",
+      "box": "triggers",
+      "sources": [
+        53,
+        54,
+        55
+      ]
+    },
+    {
+      "year": 2023,
+      "date": "2023",
+      "era": "india",
+      "art": "rocket",
+      "key": false,
+      "title": "The Landslide Atlas of India",
+      "who": "National Remote Sensing Centre, ISRO",
+      "where": "Hyderabad",
+      "country": "India",
+      "text": "ISRO's National Remote Sensing Centre published an atlas built from satellite images: about 80,000 landslides mapped between 1998 and 2022. It ranked 147 districts in 17 states and 2 union territories by how exposed their people and property are. Rudraprayag in Uttarakhand came first. Wayanad in Kerala was 13th.",
+      "why": "It turned 25 years of satellite pictures into a list of where the risk is greatest.",
+      "box": "safe",
+      "sources": [
+        56
+      ]
+    },
+    {
+      "year": 2024,
+      "date": "19 July 2024",
+      "era": "india",
+      "art": "phone",
+      "key": true,
+      "title": "A national landslide forecasting centre",
+      "who": "Geological Survey of India",
+      "where": "Salt Lake, Kolkata",
+      "country": "India",
+      "text": "The National Landslide Forecasting Centre was inaugurated at GSI in Kolkata, with the Bhusanket web portal and the Bhooskhalan mobile app. Daily bulletins began for Kalimpong, Darjeeling and the Nilgiris. By the 2025 monsoon, experimental and operational bulletins covered 21 districts in 8 states. The aim is a warning system for all landslide-prone states by 2030.",
+      "why": "India now forecasts landslides the way it forecasts weather, though so far only for some districts.",
+      "box": "rain",
+      "sources": [
+        61,
+        40,
+        41
+      ]
+    },
+    {
+      "year": 2024,
+      "date": "30 July 2024",
+      "era": "india",
+      "art": "mountain",
+      "key": true,
+      "title": "Wayanad: Mundakkai and Chooralmala",
+      "who": "",
+      "where": "Meppadi, Wayanad district, Kerala",
+      "country": "India",
+      "text": "After about 570 mm of rain in two days, a hillside above Punjirimattom failed in the early hours. The debris ran down a river valley for several kilometres, through Mundakkai and Chooralmala, in at least two surges. The official count is 298 dead, which includes 32 missing people later declared dead. Some reports give higher figures.",
+      "why": "It was the deadliest landslide in Kerala's history, in a district the 2023 atlas had already ranked 13th in the country.",
+      "box": "safe",
+      "sources": [
+        60,
+        59,
+        58,
+        57
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "First theory of soil strength from friction and cohesion",
+      "value": "1773",
+      "who": "Charles-Augustin de Coulomb, France"
+    },
+    {
+      "label": "First rock avalanche studied in detail (widely considered)",
+      "value": "1881",
+      "who": "Albert Heim at Elm, Switzerland"
+    },
+    {
+      "label": "Effective stress: how water weakens soil",
+      "value": "1923–1925",
+      "who": "Karl Terzaghi"
+    },
+    {
+      "label": "Standard classification of landslide types",
+      "value": "1958 and 1978",
+      "who": "David Varnes, US Geological Survey"
+    },
+    {
+      "label": "First worldwide rainfall threshold for landslides",
+      "value": "1980",
+      "who": "Nel Caine, USA"
+    },
+    {
+      "label": "India's first wireless sensor network on a landslide slope",
+      "value": "2008–2009",
+      "who": "Amrita Vishwa Vidyapeetham, Munnar, Kerala"
+    },
+    {
+      "label": "India's National Landslide Forecasting Centre",
+      "value": "2024",
+      "who": "Geological Survey of India, Kolkata"
+    }
+  ],
+  "people": [
+    {
+      "name": "Charles-Augustin de Coulomb",
+      "life": "1736 – 1806",
+      "role": "Military engineer and physicist",
+      "from": "France",
+      "note": "Described the strength of soil as friction plus cohesion, the starting point of every slope calculation."
+    },
+    {
+      "name": "Albert Heim",
+      "life": "1849 – 1937",
+      "role": "Geologist",
+      "from": "Switzerland",
+      "note": "Studied the 1881 Elm disaster and saw that a fast rock avalanche flows, not just slides."
+    },
+    {
+      "name": "Karl Terzaghi",
+      "life": "1883 – 1963",
+      "role": "Civil engineer, founder of soil mechanics",
+      "from": "Austria",
+      "note": "Showed that water pressure in the ground reduces the stress that holds soil grains together."
+    },
+    {
+      "name": "Alan W. Bishop",
+      "life": "1920 – 1988",
+      "role": "Geotechnical engineer",
+      "from": "England",
+      "note": "Wrote the 1955 method of slices for the factor of safety, and later helped investigate Aberfan."
+    },
+    {
+      "name": "David J. Varnes",
+      "life": "1919 – 2002",
+      "role": "Engineering geologist, US Geological Survey",
+      "from": "USA",
+      "note": "His 1958 and 1978 classifications gave the world a shared set of names for landslides."
+    },
+    {
+      "name": "Maneesha V. Ramesh",
+      "life": "active today",
+      "role": "Engineer and professor, Amrita Vishwa Vidyapeetham",
+      "from": "India",
+      "note": "Led the team that put a wireless sensor network on a slope at Munnar and later in Sikkim."
+    }
+  ],
+  "series": [
+    {
+      "id": "lives",
+      "title": "Lives lost in single landslides in India in this story",
+      "unit": "people",
+      "log": false,
+      "after": "india",
+      "caption": "Reported deaths in six landslides, each at one place. The 2013 Uttarakhand disaster is left out because most of its victims died in floods. Figures include people never found.",
+      "points": [
+        {
+          "year": 1998,
+          "value": 221,
+          "label": "Malpa: 221"
+        },
+        {
+          "year": 2014,
+          "value": 151,
+          "label": "Malin: 151"
+        },
+        {
+          "year": 2019,
+          "value": 59,
+          "label": "Kavalappara: 59"
+        },
+        {
+          "year": 2019,
+          "value": 17,
+          "label": "Puthumala: 17"
+        },
+        {
+          "year": 2020,
+          "value": 70,
+          "label": "Pettimudi: 66 found, 4 never found"
+        },
+        {
+          "year": 2024,
+          "value": 298,
+          "label": "Wayanad: official count 298"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    "About 12.6% of India's land outside the snow-covered areas, some 0.42 million sq km, is prone to landslides, by the Geological Survey of India's estimate.",
+    "Landslide speeds span a huge range: the standard scale runs from less than 16 mm a year to more than 5 m a second.",
+    "The Vaiont dam survived the 1963 disaster almost undamaged. The wave went over the top of it.",
+    "From 2004 to 2016, landslides not caused by earthquakes killed 55,997 people in 4,862 events around the world.",
+    "Satellites have mapped about 80,000 landslides in India between 1998 and 2022.",
+    "Witnesses said the Frank Slide of 1903 was over in about 100 seconds."
+  ],
+  "sources": [
+    {
+      "title": "Mohr–Coulomb theory",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mohr%E2%80%93Coulomb_theory"
+    },
+    {
+      "title": "The Coulomb's Essai legacy in soil mechanics",
+      "publisher": "Revue Française de Géotechnique",
+      "url": "https://www.geotechnique-journal.org/fr/articles/geotech/full_html/2022/01/geotech210015/geotech210015.html"
+    },
+    {
+      "title": "Rockslide of Elm",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Rockslide_of_Elm"
+    },
+    {
+      "title": "Rock avalanches",
+      "publisher": "Oxford Research Encyclopedia of Natural Hazard Science",
+      "url": "https://oxfordre.com/view/10.1093/acrefore/9780199389407.001.0001/acrefore-9780199389407-e-326"
+    },
+    {
+      "title": "Albert Heim",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Albert_Heim"
+    },
+    {
+      "title": "Frank Slide",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Frank_Slide"
+    },
+    {
+      "title": "Early Swedish contributions to geotechnical engineering",
+      "publisher": "B. H. Fellenius and others (conference paper)",
+      "url": "https://www.fellenius.net/papers/304%20Early%20Geocontributions.pdf"
+    },
+    {
+      "title": "Slope stability analysis",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Slope_stability_analysis"
+    },
+    {
+      "title": "Karl Terzaghi",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Karl-Terzaghi"
+    },
+    {
+      "title": "Terzaghi's principle",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Terzaghi%27s_principle"
+    },
+    {
+      "title": "1923–2023: one century since formulation of the effective stress principle",
+      "publisher": "Geotechnics (MDPI)",
+      "url": "https://www.mdpi.com/2673-7094/2/4/45"
+    },
+    {
+      "title": "Alan W. Bishop",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alan_W._Bishop"
+    },
+    {
+      "title": "The use of the slip circle in the stability analysis of slopes (Bishop 1955)",
+      "publisher": "Géotechnique, via Semantic Scholar",
+      "url": "https://www.semanticscholar.org/paper/The-use-of-the-Slip-Circle-in-the-Stability-of-Bishop/270a0f0d863c775869564b327bf45c20a8f06661"
+    },
+    {
+      "title": "Vajont Dam",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vajont_Dam"
+    },
+    {
+      "title": "Vaiont Dam",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Vaiont-Dam"
+    },
+    {
+      "title": "The Vajont landslide",
+      "publisher": "Italian Civil Protection Department",
+      "url": "https://servizio-nazionale.protezionecivile.gov.it/en/pagina-base/vajont-landslide/"
+    },
+    {
+      "title": "Aberfan disaster",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aberfan_disaster"
+    },
+    {
+      "title": "The Aberfan disaster, 1966",
+      "publisher": "British Geological Survey",
+      "url": "https://www.bgs.ac.uk/case-studies/aberfan-1966-landslide-case-study/"
+    },
+    {
+      "title": "1968 Sikkim floods",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1968_Sikkim_floods"
+    },
+    {
+      "title": "Landslides and floods in the Tista basin (Darjeeling and Jalpaiguri districts): historical evidence, causes and consequences",
+      "publisher": "ResearchGate (journal article)",
+      "url": "https://www.researchgate.net/publication/299492216_Landslides_and_Floods_in_the_Tista_Basin_Darjeeling_and_Jalpaiguri_Districts_Historical_Evidence_Causes_and_Consequences"
+    },
+    {
+      "title": "1970 Huascarán debris avalanche",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1970_Huascar%C3%A1n_debris_avalanche"
+    },
+    {
+      "title": "North peak of Nevados Huascarán, source of the 1970 debris avalanche",
+      "publisher": "US Geological Survey (ScienceBase)",
+      "url": "https://www.sciencebase.gov/catalog/item/51dd9d67e4b0f72b4471daa7"
+    },
+    {
+      "title": "David J. Varnes",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/David_J._Varnes"
+    },
+    {
+      "title": "Landslide classification",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Landslide_classification"
+    },
+    {
+      "title": "Landslide types and processes (Fact Sheet 2004-3072)",
+      "publisher": "US Geological Survey",
+      "url": "https://pubs.usgs.gov/fs/2004/3072/"
+    },
+    {
+      "title": "The Varnes classification of landslide types, an update (Hungr, Leroueil and Picarelli 2014)",
+      "publisher": "Landslides (Springer)",
+      "url": "https://link.springer.com/article/10.1007/s10346-013-0436-y"
+    },
+    {
+      "title": "Caine (1980), The rainfall intensity-duration control of shallow landslides and debris flows",
+      "publisher": "Geografiska Annaler, reference record",
+      "url": "https://www.scirp.org/reference/referencespapers?referenceid=2008551"
+    },
+    {
+      "title": "Early warning of rainfall-induced shallow landslides and debris flows in the USA",
+      "publisher": "Landslides (Springer)",
+      "url": "https://link.springer.com/article/10.1007/s10346-009-0177-0"
+    },
+    {
+      "title": "1998 Malpa landslide",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/1998_Malpa_landslide"
+    },
+    {
+      "title": "Landslide hazard",
+      "publisher": "Geological Survey of India (Bhusanket portal)",
+      "url": "https://bhusanket.gsi.gov.in/LS_hazard.html"
+    },
+    {
+      "title": "National Disaster Management Guidelines: Management of Landslides and Snow Avalanches (June 2009)",
+      "publisher": "NDMA / NIDM",
+      "url": "https://nidm.gov.in/pdf/guidelines/new/landslidessnowavalanches.pdf"
+    },
+    {
+      "title": "Landslide: resources (including the National Landslide Risk Management Strategy, 2019)",
+      "publisher": "National Disaster Management Authority",
+      "url": "https://www.ndma.gov.in/Natural-Hazards/Landslide/Resources"
+    },
+    {
+      "title": "Landslide: do's and don'ts",
+      "publisher": "National Disaster Management Authority",
+      "url": "https://ndma.gov.in/Natural-Hazards/Landslide/Dos-Donts"
+    },
+    {
+      "title": "Landslide monitoring",
+      "publisher": "Amrita Vishwa Vidyapeetham",
+      "url": "https://www.amrita.edu/center/awna/research/landslide-monitoring/"
+    },
+    {
+      "title": "Dr. Maneesha Vinodini Ramesh",
+      "publisher": "Amrita Vishwa Vidyapeetham",
+      "url": "https://www.amrita.edu/faculty/maneesha/"
+    },
+    {
+      "title": "2013 North India floods",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2013_North_India_floods"
+    },
+    {
+      "title": "India: Uttarakhand disaster, June 2013. Joint rapid damage and needs assessment report",
+      "publisher": "World Bank, Asian Development Bank and Government of Uttarakhand",
+      "url": "https://documents1.worldbank.org/curated/en/322951468041658053/pdf/826430WP0P146600Box379864B00PUBLIC0.pdf"
+    },
+    {
+      "title": "Devastation in the Kedarnath (Mandakini) valley, Garhwal Himalaya, during 16–17 June 2013",
+      "publisher": "Natural Hazards (Springer)",
+      "url": "https://ideas.repec.org/a/spr/nathaz/v80y2016i3p1801-1822.html"
+    },
+    {
+      "title": "2014 Malin landslide",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2014_Malin_landslide"
+    },
+    {
+      "title": "Forensic analysis of Malin landslide in India",
+      "publisher": "IOP Conference Series: Earth and Environmental Science",
+      "url": "https://iopscience.iop.org/article/10.1088/1755-1315/26/1/012040/pdf"
+    },
+    {
+      "title": "Parliament question: mapping of landslide prone areas (20 August 2025)",
+      "publisher": "Press Information Bureau, Government of India",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2158420&reg=48&lang=2"
+    },
+    {
+      "title": "Mapping of landslide prone areas (Lok Sabha reply, August 2025)",
+      "publisher": "Ministry of Earth Sciences",
+      "url": "https://www.moes.gov.in/static/uploads/2025/08/d4aabb5c7a226df21f4b5b40d40d432d.pdf"
+    },
+    {
+      "title": "2018 Kerala floods",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2018_Kerala_floods"
+    },
+    {
+      "title": "Kerala post disaster needs assessment: floods and landslides, August 2018",
+      "publisher": "Government of Kerala and United Nations",
+      "url": "https://sdma.kerala.gov.in/wp-content/uploads/2019/03/PDNA-report-FINAL-FEB-2019_compressed.pdf"
+    },
+    {
+      "title": "Frequency of landslides rising in Kerala due to land-use patterns, climate change",
+      "publisher": "Onmanorama",
+      "url": "https://www.onmanorama.com/news/kerala/2021/10/22/landslides-frequency-increase-kerala-climate-change-land-use-pattern.html"
+    },
+    {
+      "title": "The 8 August 2019 Kavalappara landslide in India",
+      "publisher": "The Landslide Blog (AGU)",
+      "url": "https://blogs.agu.org/landslideblog/2019/08/21/kavalappara-landslide-1/"
+    },
+    {
+      "title": "2019 Kerala floods",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2019_Kerala_floods"
+    },
+    {
+      "title": "Landscape degradation: the August 2019 Puthumala landslide in Kerala, India",
+      "publisher": "Springer",
+      "url": "https://link.springer.com/chapter/10.1007/978-981-19-5077-3_1"
+    },
+    {
+      "title": "Global fatal landslide occurrence from 2004 to 2016 (Froude and Petley 2018)",
+      "publisher": "Natural Hazards and Earth System Sciences (EGU)",
+      "url": "https://nhess.copernicus.org/articles/18/2161/2018/"
+    },
+    {
+      "title": "Spatial and temporal analysis of global landslide reporting using a decade of the Global Landslide Catalog",
+      "publisher": "Sustainability (MDPI), NASA authors",
+      "url": "https://www.mdpi.com/2071-1050/15/4/3323"
+    },
+    {
+      "title": "Developing regional-scale landslide forecasting in hazard-prone regions of India",
+      "publisher": "British Geological Survey",
+      "url": "https://www.bgs.ac.uk/news/developing-regional-scale-landslide-forecasting-in-hazard-prone-regions-of-india/"
+    },
+    {
+      "title": "2020 Pettimudi landslide",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2020_Pettimudi_landslide"
+    },
+    {
+      "title": "An integrated assessment of landslide: the Pettimudi incident in Idukki district, India",
+      "publisher": "ScienceDirect (journal article)",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2211714824000372"
+    },
+    {
+      "title": "Sinking and sleeping of Himalayan city Joshimath",
+      "publisher": "ScienceDirect (journal article)",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666033423000321"
+    },
+    {
+      "title": "Still sinking: Joshimath",
+      "publisher": "Down To Earth",
+      "url": "https://www.downtoearth.org.in/natural-disasters/still-sinking"
+    },
+    {
+      "title": "As cracks widen in Joshimath, reasons lay hidden underground",
+      "publisher": "Mongabay India",
+      "url": "https://india.mongabay.com/2023/01/joshimath-amid-widening-cracks-truths-remain-hidden-in-hills/"
+    },
+    {
+      "title": "Landslide Atlas of India",
+      "publisher": "ISRO / National Remote Sensing Centre",
+      "url": "https://www.isro.gov.in/Landslide_Atlas_India.html"
+    },
+    {
+      "title": "2024 Wayanad landslides",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2024_Wayanad_landslides"
+    },
+    {
+      "title": "The 30 July 2024 Wayanad landslides in Kerala, India",
+      "publisher": "The Landslide Blog (Eos, AGU)",
+      "url": "https://eos.org/thelandslideblog/wayanad-landslides"
+    },
+    {
+      "title": "Two years after the Mundakkai-Chooralmala landslides, Wayanad faces a climate crossroads",
+      "publisher": "Down To Earth",
+      "url": "https://www.downtoearth.org.in/climate-change/two-years-after-the-mundakkai-chooralmala-catastrophe-wayanad-and-kerala-are-at-a-crossroads"
+    },
+    {
+      "title": "Preliminary analysis of the July 30, 2024, Wayanad landslide disaster in India: causes and impacts",
+      "publisher": "ScienceDirect (journal article)",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666592125000472"
+    },
+    {
+      "title": "Union Minister G Kishan Reddy inaugurates National Landslide Forecasting Centre and launches Bhusanket web portal and Bhooskhalan mobile app",
+      "publisher": "Press Information Bureau, Government of India",
+      "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2034442"
+    },
+    {
+      "title": "Landslide",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Landslide"
+    }
+  ]
+}
